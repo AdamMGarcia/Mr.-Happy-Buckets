@@ -1,13 +1,23 @@
-# Mr.-Happy-Buckets Glossary
+Oh yay you actually opened the ReadMe! We're so proud of you. (:
 
-# buckets (groups): People are grouped into buckets depending on how many groups we want to divide into. Also can be refered to as "groups."
+Greetings, and welcome to HappyTeams!
 
-# priorities (preferences): Each person has a choice of 7 different people which they can request to be in their team. They can rank them from 1 to 7 with one being their favorite and 7 being their least favorite. Also can be refered to as "preferences."
+-- DECRIPTION --
+HappyTeams is a program to assist in organizing students into teams that they will hopefully be most happy in. The students are able to give priorites which are used to guage the possible happiness with those they are paired up with. If the numbers are too low, they're shuffled around and the new groups are tested for their happiness levels. Etc etc!
 
-# teams: The non-technical name for buckets. Buckets is refered to in code, teams is refered to in UI.
 
-# happiness: If a person is on a team with the first person they requested on their priority list they get 4 happines points. If a person is on a team with the second person they requested on their priority list they get 3 happines points. If a person. If a person is on a team with the fourth person or higher they requested on their priority list they get 1 happines points. If a person is on a team with the a person they didn't requested on their priority list they get 0 happines points.
+-- HOW IT WORKS --
+The program recieves the student priorities from a txt file.
+The user interacts through the command line with: "java -cp target/classes HappyTeams -v # -t # -n # -l # -r # < filename.txt"
+* See glossary for key & # == number values of choice *
 
-# shuffle (function): Tests if the original array is different than the shuffle array.
 
-# compare (function): Tests to see if the new arangment of groups has higher happiness of old arangments of groups. If the happiness is higher then we use the new group. If happiness is lower we use old group.
+-- CREDITS --
+Coded and created by:
+Nic Fornicola
+Adam Garcia
+SK Hall
+
+
+-- MOST RECENT UPDATE -- 
+03/04/2020
