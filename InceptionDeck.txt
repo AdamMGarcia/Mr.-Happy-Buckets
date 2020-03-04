@@ -1,0 +1,56 @@
+
+*********************************************************************************************
+
+INCEPTION DECK - Happy Teams
+SE1 Spring 2020 Dr. Reeves
+
+Home Depot 5 Gallon Buckets
+Nic Fornicola, Adam Garcia & SK Hall
+
+Last Updated: 03/02/2020
+
+*********************************************************************************************
+
+1. WHY ARE WE HERE?
+	•	We are here to create happy teams! We plan to do so by creating a program to sort students into groups based on their preferences, hopefully then creating, happy teams. This is a project assigned by non-other than Dr. Brent Reeves for our Software Engineering I class.
+
+2. ELEVATOR PITCH
+	•	For professors who are trying to keep their students somewhat happy, HD5GB’s Happy Teams is a team creator that sorts students based on their preferences. Unlike normal assigning a professor would have to do with pen and paper, our product allows students to  anonymously request teammates which the program takes and tries hundreds of thousands of possible combinations to create the happiest teams possible.
+
+3. DESIGN A PRODUCT BOX
+	⁃	1. Benefits?
+	⁃	Gone are the days of paper and pen!
+	⁃	Avoid peer pressure!
+	⁃	More saving, more doing!
+	⁃	2. Slogan: 
+	⁃	You can’t buy happiness, but you sure can buy some marginally happy teams.
+	⁃	3. Image: 
+	⁃	Imagine a super cool Home Depot 5 Gallon Bucket, but with a smiley face.
+
+4. NOT LIST
+	•	On this project we are not…
+	⁃	assigning based on a specific number of teams
+	⁃	allowing one student to have a significantly higher happiness than their teammates
+	⁃	allowing one team to have a significantly higher happiness than the other teams
+	⁃	randomly assigning all students at once if happiness levels are not sufficient
+
+5. OUR NEIGHBORS
+	•	Our team, Nic, Adam & SK, all met together multiple times to brainstorm. During these sessions, we were able to build community bonding over little things here and there. Overall we make a great team, brining different perspectives but the same sense of humor to the workplace!
+
+6. THE SOLUTION
+	•	Our planned solution is to create a Java program that shuffles students and assigns them to teams. We will continue shuffling students between teams until the team is essentialy, “happy.” We will determine their happiness by keeping track of who they prefer to be on a team with which will be given to the program at the start.
+
+7. WHAT KEEPS US UP AT NIGHT
+	•	The project requirements may change! (Which they have)
+	•	Our number of arrays, private static variables and global variables are quite large when you stack it all up. Will it all come tumbling down?
+	•	We don’t fully, properly understand the 
+	•	Why does God let bad things happen to good people?
+
+8. SIZE/TIME FRAME
+	•	Week one, we’ll focus creating something that runs/reads in a file while adding placeholders when there is uneven teams. Week two, we’ll focus on shuffling the teams based on their priorities. Week three, we’ll focus on any extra requirements that may have popped up as well as a new feature that allows the user choose the number of preferences their students may choose.
+
+9. WHAT’S GOING TO GIVE
+	•	Things that we are going to be able to flex on are time (professor permitting), overall scope and giving the user a choice in the number of priorities the students are allowed.
+
+10. WHAT’S IT GOING TO TAKE
+	•	Well we aren’t being paid, so we don’t have a budget. Kind of unfair if you ask us.

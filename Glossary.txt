@@ -1,0 +1,41 @@
+*********************************************************************************************
+
+GLOSSARY - Happy Teams
+SE1 Spring 2020 Dr. Reeves
+
+Home Depot 5 Gallon Buckets
+Nic Fornicola, Adam Garcia & SK Hall
+
+Last Updated: 03/02/2020
+
+*********************************************************************************************
+Here is a basic list of terms and crucial variables we use in our program. Enjoy! (:
+
+TERMS
+
+	•	BUCKETS (groups): People are grouped into buckets depending on how many groups we want to divide into. Also can be referred to as "groups."
+
+	•	PRIORITIES (preferences): Each person has a choice of 7 different people which they can request to be in their team. They can rank them from 1 to 7 with one being their favorite and 7 being their least favorite. Also can be referred to as "preferences."
+
+	•	TEAMS: The non-technical name for buckets. Buckets is referred to in code, teams is referred to in UI.
+
+	•	HAPPINESS: If a person is on a team with the first person they requested on their priority list they get 4 happiness points. If a person is on a team with the second person they requested on their priority list they get 3 happiness points. If a person. If a person is on a team with the fourth person or higher they requested on their priority list they get 1 happiness points. If a person is on a team with the a person they didn't requested on their priority list they get 0 happiness points.
+
+	•	SHUFFLE (function): Tests if the original array is different than the shuffle array.
+
+	•	COMPARE (function): Tests to see if the new arrangement of groups has higher happiness of old arrangements of groups. If the happiness is higher than we use the new group. If happiness is lower we use old group.
+
+
+VARIABLES
+	•	int verbosity - influenced by int v, the user can choose to which part of the program they wish it to run to
+	⁃	int v == 0 ; Peak total happiness all the teams at the end
+	⁃	int v == 1 ; Adds shuffling list and shuffling over indicators, when a new peak is found showing the new highestHappiness, when the shuffle resets “Starting over” resetting happiness and such, shows command line args from user input
+	⁃	int v == 2 ; Can now see the iterations, see when the getPrio and checkNames are rest to txt file
+	⁃	int v == 3 ; Happiness each iteration, see when an array equals a past shuffle so it goes again the same iteration, see when each function is called
+	⁃	int v == 4 ; Every time there is a calculate for equality between a priority and team member, outputs the new peak happiness team configuration
+	•	int iteration - keeps track of the number of times shuffled
+	•	t - team size, minimum 2 maximum (class / 2)
+	•	v - verbosity level 0 - 4  information / debugging output
+	•	n - number-of-swaps to attempt
+	•	l - number of times to perform N swaps
+	•	r - percent of sub-optimal swaps allowed (2 means 2 %)
